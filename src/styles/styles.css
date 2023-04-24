@@ -104,7 +104,6 @@ body {
 }
 
 .box {
-    
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -129,12 +128,12 @@ body {
   }
   @media (max-width: 576px) {
     .box {
-      margin-left: 5em;
+      margin-left: 3em;
       margin-top: 5em;
     }
   }
 
-  .names-project-col {
+  /* .names-project-col {
     white-space: nowrap;
     background-color: green;
     padding: 0;
@@ -158,4 +157,4 @@ body {
       margin-left: 1em;
     }
   }
-  
+   */
