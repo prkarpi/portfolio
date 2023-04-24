@@ -10,8 +10,15 @@ body {
     color: #393939;
    
 }
-.a:any-link {
+.project-link,
+.project.link:active,
+.project-link:visited {
     text-decoration: none;
+    color: #393939;
+}
+.project-link:hover {
+    color: black;
+    background-color: #fcf5ea;
 }
 
 .body-container {
@@ -29,9 +36,32 @@ body {
     font-size: .8em;
 }
 
-.projects-div {
-    
+.menu-div {
+    text-align: right;
+    width: fit-content;
+    font-size: 8em;
+    line-height: .9em;
 }
+@media (max-width: 1212px) {
+    .menu-div {
+      font-size: 7em;
+    }
+  }
+@media (max-width: 992px) {
+    .menu-div {
+      font-size: 6em;
+    }
+  }
+  @media (max-width: 768px) {
+    .menu-div {
+        font-size: 5em;
+    }
+  }
+  @media (max-width: 576px) {
+    .projects-div{
+        font-size: 4em;
+    }
+  }
 
 .first-last-name-div {
     font-size: 4em;
@@ -52,43 +82,57 @@ body {
 
 .fullstack-div {
     font-weight: 100;
-    margin-top: -.9em;
+    margin-top: -3em;
     font-size: 2em;
     color: #666666;
 }
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
+    .fullstack-div {
+      font-size: 2em;
+      margin-top: -1em;
+    }
+  }
+  @media (max-width: 768px) {
     .fullstack-div {
       font-size: 1em;
+      margin-top: -3em;
     }
   }
-  @media (max-width: 768px) {
-    .fullstack-div {
-      font-size: .7em;
-    }
-  } */
 
-.names-col {
-    white-space: nowrap;
-    /* background-color: #ffffff; */
-    margin-left: 20em;
-    margin-top: 20em;
+  .page-center {
+    align-items: center;
+}
+
+.box {
+    
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10em;
+    margin-top: 15em;
+}
+.box>* {
+    flex: 1 1 80px;
 }
 @media (max-width: 992px) {
-    .names-col {
-      margin-left: 15em;
+    .box {
+      margin: 10em 0 5em 15em;
+      height: fit-content;
     }
   }
   @media (max-width: 768px) {
-    .names-col {
+    .box {
       margin-left: 10em;
+      margin-top: 7em;
     }
   }
   @media (max-width: 576px) {
-    .names-col {
-      margin-left: 1em;
+    .box {
+      margin-left: 5em;
+      margin-top: 5em;
     }
   }
-
 
   .names-project-col {
     white-space: nowrap;
@@ -114,3 +158,4 @@ body {
       margin-left: 1em;
     }
   }
+  
