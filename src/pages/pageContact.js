@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div>
-        <div><Link to='/'>home</Link></div>
+        <div><Link to='/'>home&#8249;</Link></div>
             {/* <div className="names-col">
                 <div className="first-last-name-div">Serge Vassiliev</div>
                 <div className="fullstack-div">Fullstack Developer</div>
