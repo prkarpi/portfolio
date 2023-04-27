@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 import { Link } from 'react-router-dom';
 
 
@@ -13,7 +11,7 @@ function App() {
             </div>
             <div className="projects-div">About Projects Contact</div> */}
 
-        <div class="box">
+        <div class="box fade-in">
             <div className="cell-spacer"></div>
             <div className="first-last-name-div">Sergey Vassiliev</div>
             <div className="fullstack-div">Fullstack Developer</div>
