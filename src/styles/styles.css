@@ -191,7 +191,7 @@ body {
   }
 
   .about-page-paragraph {
-    font-size: 1.8em;
+    font-size: 1.6em;
     width: fit-content;
     padding-right: .5em;
     font-weight: 100;
@@ -207,7 +207,7 @@ body {
     }
   }
 
-  .about-page-header {
+  .page-header {
     font-size: 4em;
   }
 
@@ -232,4 +232,5 @@ body {
     background-color: #feeed3;
     max-width: fit-content;
     padding: .2em;
+    margin-top: 1em;
   }

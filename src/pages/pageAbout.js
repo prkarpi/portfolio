@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
+import HeaderModule from './headerModule';
 
 
-function App() {
+const About = ()  => {
   return (
     <div>
-        <div><Link to='/'>home&#8249;</Link></div>
+        <HeaderModule/>
         <div class="box-about-page fade-in">
             <div className="about-page-header">About</div>
            
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;

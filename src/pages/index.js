@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
+import HeaderModule from './headerModule';
 
-
-function App() {
+const Home = () => {
   return (
     <div>
-        <div><Link to='/' className="project-link">home&#8249;</Link></div>
+        <HeaderModule/>
             {/* <div className="names-col">
                 <div className="first-last-name-div">Serge Vassiliev</div>
                 <div className="fullstack-div">Fullstack Developer</div>
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
