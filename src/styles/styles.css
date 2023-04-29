@@ -79,7 +79,7 @@ body {
   }
 @media (max-width: 430px) {
     .projects-div{
-        font-size: 3em;
+        font-size: 2.5em;
         margin-right: 1em;
     }
   }
@@ -152,7 +152,7 @@ body {
   }
   @media (max-width: 430px) {
     .box {
-      margin-left: 1em;
+      margin-left: .2em;
       margin-top: 2em;
     }
   }
@@ -216,4 +216,20 @@ body {
     padding-top: 1em;
     padding-bottom: 2em;
     text-align: center;
+    
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .about-page-paragraph-techologies-stack {
+    text-align: center;
+  }
+
+  .company-background {
+    display: inline-block;
+    background-color: #feeed3;
+    max-width: fit-content;
+    padding: .2em;
   }
