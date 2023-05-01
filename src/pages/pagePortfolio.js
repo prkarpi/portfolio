@@ -22,7 +22,7 @@ const Portfolio = () => {
             </div>
 
             <div className="about-page-paragraph">
-            <div className='company-background'>@More Projects</div>I have developed WordPress sites on my spare time. Contributed creating GraphQL backend setting up Apollo servers. I helped built Node js servers and models. Contributed to Ruby on Rails and PHP projects. Created and deployed <u>(www.emberjsschool.com)</u> online tutorial website and contributed to teaching Ember js cources on youtube. I was the developer and UI/UX designer for <u>(www.sergiovassio.com)</u> photography website. <br/>
+            <div className='company-background'>@More Projects</div>I have developed WordPress sites in my spare time. Contributed creating GraphQL backend setting up Apollo servers. I helped built Node js servers and models. Contributed to Ruby on Rails and PHP projects. Created and deployed <u>(www.emberjsschool.com)</u> online tutorial website and contributed to teaching Ember js cources on youtube. I was the developer and UI/UX designer for <u>(www.sergiovassio.com)</u> photography website. <br/>
             <div className="project-page-paragraph-techologies"><b>Technologies used: </b></div>
             <p className='projects-page-stack'>Node, GraphQL, PHP, Ruby on Rails, DevOps, CSS, Ember Js, HTML, WordPress.</p>
             <hr/>
