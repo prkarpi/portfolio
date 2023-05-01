@@ -6,7 +6,7 @@ const About = ()  => {
     <div>
         <HeaderModule/>
         <div class="box-about-page fade-in">
-            <div className="about-page-header">About</div>
+            <div className="page-header">About</div>
            
             <div className="about-page-paragraph">
             Hello! Shalom! Hola! Ciao! Привіт! Konnichiwa! Привет! Assalamu alaikum! Nǐ hǎo! Shikamoo! 
@@ -30,7 +30,7 @@ const About = ()  => {
             </div>
             </div>
             
-      </div>
+        </div>
     </div>
   );
 }

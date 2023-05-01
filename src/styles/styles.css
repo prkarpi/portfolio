@@ -260,3 +260,15 @@ body {
     padding: .1em;
     max-width: fit-content;
   }
+
+  .reach-out-row {
+    
+    flex-direction: column;
+    
+  }
+
+  /* .reach-out-box {
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+  } */
