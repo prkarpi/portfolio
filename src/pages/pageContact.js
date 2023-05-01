@@ -8,7 +8,7 @@ import GitHubImg from '../styles/img/github-logo.png'
 const Contact = () => {
     const handleEmailClick = (event) => {
         event.preventDefault();
-        window.location.href = 'mailto:serge.vassiliev@gmail.com';
+        window.location.href = 'mailto:serge.vassiliev@gmail.com?subject=From Profile at Vercel';
       };
   return (
     <div>
