@@ -18,6 +18,7 @@ const Home = () => {
            
             <div className="menu-div">
                 <div><Link to='/about' className="project-link">About</Link></div>
+                <div><Link to='/education' className="project-link">Education</Link></div>
                 <div><Link to='/projects' className="project-link">Projects</Link></div>
                 <div><Link to='/contact' className="project-link">Contact</Link></div>
             </div>

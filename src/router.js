@@ -3,6 +3,7 @@ import Home from './pages/index';
 import Portfolio from './pages/pagePortfolio';
 import About from './pages/pageAbout';
 import Contact from './pages/pageContact';
+import Education from './pages/pageEducation'
 
 const Router = () => {
   return(
@@ -14,6 +15,7 @@ const Router = () => {
             <Route path="/projects" element={<Portfolio/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/education" element={<Education/>}/>
         </Routes>
 
       {/* <Footer /> */}

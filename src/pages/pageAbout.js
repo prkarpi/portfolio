@@ -24,6 +24,7 @@ const About = ()  => {
                     <li>Mongoose</li>
                     <li>DevOps</li>
                     <li>UI/UX</li>
+                    <li>PHP</li>
                 </ul>
             </div>
             </div>
