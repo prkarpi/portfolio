@@ -262,9 +262,14 @@ body {
   }
 
   .reach-out-row {
-    
     flex-direction: column;
-    
+  }
+  @media (max-width: 430px) {
+    .reach-out-row {
+      width: 360px;
+      margin: 0;
+      padding: 0;
+    }
   }
 
   /* .reach-out-box {
