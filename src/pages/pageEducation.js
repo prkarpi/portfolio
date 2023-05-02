@@ -6,7 +6,7 @@ const Education = () => {
     <div>
         <HeaderModule/>
         <div class="box-about-page fade-in">
-        <div className="page-header">Education:</div>
+        <div className="page-header">Education</div>
            
         <div className="about-page-paragraph">
         <div className='company-background'>@Metropolitan State University</div><br/>

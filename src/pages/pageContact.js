@@ -14,7 +14,7 @@ const Contact = () => {
     <div>
         <HeaderModule/>
         <div class="box-about-page fade-in reach-out-row">
-        <div className="page-header">Contact:</div>
+        <div className="page-header">Contact</div>
            
         <div className="about-page-paragraph">
             <Link to={'https://www.linkedin.com/in/sergey-vasfield-81055b42/'}><img src={LinkedInImg} alt='LinkedIn' style={{ width: '6em'}}></img></Link>
