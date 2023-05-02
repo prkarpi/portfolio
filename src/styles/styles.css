@@ -95,7 +95,7 @@ body {
 @media (max-width: 430px) {
     .menu-div{
         font-size: 3.6em;
-        margin-right: 1em;
+        margin: 0;
     }
   }
 
