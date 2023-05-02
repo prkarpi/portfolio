@@ -115,6 +115,11 @@ body {
       font-size: 2em;
     }
   }
+  @media (max-width: 430px) {
+    .first-last-name-div {
+      margin-left: .3em;
+    }
+  }
 
 .fullstack-div {
     font-weight: 100;
@@ -133,6 +138,11 @@ body {
     .fullstack-div {
       font-size: 1em;
       margin-top: -3em;
+    }
+  }
+  @media (max-width: 430px) {
+    .fullstack-div {
+      margin-left: .5em;
     }
   }
 
@@ -277,9 +287,3 @@ body {
       padding: 0;
     }
   }
-
-  /* .reach-out-box {
-    display: inline-block;
-    width: 100%;
-    background-color: red;
-  } */
