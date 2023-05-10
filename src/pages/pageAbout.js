@@ -26,6 +26,7 @@ const About = ()  => {
                     <li>DevOps</li>
                     <li>UI/UX</li>
                     <li>PHP</li>
+                    <li>Python in process</li>
                 </ul>
             </div>
             </div>
