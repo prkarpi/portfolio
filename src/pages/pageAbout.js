@@ -17,6 +17,7 @@ const About = ()  => {
                     <li>React</li>
                     <li>Node</li>
                     <li>CSS</li>
+                    <li>RESTful/GraphQL APIs</li>
                     <li>Typescript</li>
                     <li>MongoDB</li>
                     <li>Ruby on Rails</li>
@@ -26,7 +27,7 @@ const About = ()  => {
                     <li>DevOps</li>
                     <li>UI/UX</li>
                     <li>PHP</li>
-                    <li>Python in process</li>
+                    <li>Python (in process)</li>
                 </ul>
             </div>
             </div>
