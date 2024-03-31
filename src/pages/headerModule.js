@@ -4,7 +4,7 @@ const HeaderModule = () => {
   return (
     <>
     <div className='home-link'><Link to='/' className="project-link">_home</Link></div>
-    <div className='copyright'>&#9400;2023</div>
+    <div className='copyright'>&#9400;2024</div>
     </>
   );
 }

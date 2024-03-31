@@ -17,6 +17,7 @@ const About = ()  => {
                     <li>React</li>
                     <li>Node</li>
                     <li>CSS</li>
+                    <li>Flask</li>   
                     <li>RESTful/GraphQL APIs</li>
                     <li>Typescript</li>
                     <li>MongoDB</li>
