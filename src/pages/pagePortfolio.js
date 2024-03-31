@@ -16,8 +16,11 @@ const Portfolio = () => {
 
             <div className="about-page-paragraph">
             <div className='company-background'>@Harvard in Tech Seattle</div> My current position is of mammoth proportions, involving the Machine Learning and Data Science Team, where I take part in a fullstack role while leading a frontend team developing React applications. Contributing ideas and suggestions in team meetings and delivering updates on deadlines, designs, and enhancements collaborating with cross-functional development team members to analyze potential system solutions based on evolving client requirements. As a lead frontend developer, my daily operations include working closely with Node js developers and the UI/UX team in a sprint-driven environment. Tasks include modern browser compatibility, mobile scalability, and mobile platform building. Collaborating with and advising DevOps team members on the CI/CD implementations in the Azure environment (www.harvardintechseattle.com).
+            <p>1. <a href={"https://www.factfinderspro.com/"}>www.factfinderspro.com</a></p>
+            <p>2. CFA Page - still in the works</p>
+            <p>3. Mobile version for www.harvardintechseattle.com - still in the works</p>
             <div className="project-page-paragraph-techologies"><b>Technologies used:</b></div>
-            <p className='projects-page-stack'>React, Redux, CSS, Node, Express, API, MongoDB, Mocha, React Testing Library, +DevOps including CI/CD</p>
+            <p className='projects-page-stack'>React/Native, Nextjs, Redux, CSS, Node, Express, API, MongoDB, Mocha, React Testing Library, +DevOps including CI/CD</p>
             <hr/>
             </div>
 
