@@ -1,6 +1,6 @@
-import React from 'react';
+//import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Container from 'react-bootstrap/Container';
+//import Container from 'react-bootstrap/Container';
 import './styles/styles.css';
 import Routes from './router';
 import reportWebVitals from './reportWebVitals';
